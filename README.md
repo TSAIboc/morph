@@ -1,5 +1,5 @@
 
-![screenshot](./docs/example.png)
+![screenshot](./docs/morph.gif)
 
 ### Practice using
 * **next.js**
@@ -24,4 +24,4 @@
     * pass ui component data to canvas
 
 
-demo : [Mesh morphing](https://animation-sigma.vercel.app/)
+demo : [Mesh morphing](https://morph-jade.vercel.app/)
