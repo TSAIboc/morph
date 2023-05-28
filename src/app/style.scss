@@ -1,0 +1,39 @@
+.head {
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 80px);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: math;
+}
+
+.canvas {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.slider {
+    position: absolute;
+    opacity: 0.7;
+    border-radius: 50%;
+    top: calc(65% - 50px);
+    left: calc(50% - 50px);
+    background-image: url(./arrow.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100px;
+    filter: brightness(0);
+    cursor: ew-resize;
+}
+
+.controller {
+    position: fixed;
+    bottom: 150px;
+    line-height: 25px;
+    width: 240px;
+    left: calc(50% - 120px);
+}

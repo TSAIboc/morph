@@ -1,0 +1,24 @@
+.front {
+    background-image: url(./png/front.png);
+}
+
+.right {
+    background-image: url(./png/right.png);
+}
+
+.front,
+.right,
+.reset {
+    background-repeat: no-repeat;
+    background-size: 60px 35px;
+    height: 35px;
+    width: 60px;
+    filter: brightness(0);
+    cursor: pointer;
+}
+
+.reset {
+    background-image: url(./png/reset.png);
+    background-size: 35px 35px;
+    margin-left: 10px;
+}

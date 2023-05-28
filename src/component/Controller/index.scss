@@ -1,0 +1,59 @@
+.menu {
+    display: grid;
+    line-height: 32px;
+    grid-template-areas:
+        'viewangle'
+        'size'
+        'intensity';
+    grid-template-rows: 1.3fr 1fr 1fr;
+
+    .viewangle {
+        display: flex;
+        grid-area: viewangle;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .size{
+        grid-area: size;
+    }
+
+    .intensity {
+        grid-area: intensity;
+    }
+
+    .size,
+    .intensity {
+        display: grid;
+        grid-template-areas:
+            'text control';
+        grid-template-columns: 1fr 2fr;
+
+        .text {
+            grid-area: text;
+            text-align: right;
+            font-size: 20px;
+            font-family: math;
+            font-weight: 600;
+        }
+
+        .control {
+            grid-area: control;
+            padding-left: 5px;
+
+            .ant-slider {
+                .ant-slider-track {
+                    background-color: #000000;
+                }
+
+                .ant-slider-handle::after {
+                    box-shadow: 0 0 0 2px #000000;
+                }
+            }
+        }
+    }
+}
+
+.ant-tooltip .ant-tooltip-inner {
+    text-align: center;
+}
